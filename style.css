@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik', sans-serif;
+}
+/*Mobile*/
+
+/*Cabeçalho*/
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.image-logotipo{
+    width: 23.4%;
+    padding: 2.7% 0 2.5% 3%;
+    box-sizing: border-box;
+}
+
+.fa-solid{
+    margin: .68em .75em .5em 0 ;
+    font-size: 1.49em;
+    color: white;
+}
+
+
+
+/*Conteúdo de anúncio*/
+.content-ad{
+    background-color: #df0c8b;
+    color: white;
+    height: 160vw;
+}
+
+.ad{
+    height: 100%;
+    padding: 5% 4.3% 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+/*Elementos .ad título/parágrafo*/
+.ad h1{
+    font-size: 1.66em;
+    font-weight: 600.2;
+    letter-spacing: .3px;
+}
+
+.ad h2{
+    text-align: left;
+    margin-top: 7%;
+    line-height: 1.55em;
+    font-size: 1.049em;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+
+.ad p{
+    margin-top: 9%;
+    font-size: .68em;
+    line-height: 1.5em;
+}
+
+/*Elementos .add buttons*/ 
+div{
+    margin-top: 12.5%;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 1.2em;
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-size: .88em;
+    color: white;
+    font-weight: 450;
+    letter-spacing: .3px;
+}
+
+.button-fill{
+    background-color: rgb(22, 19, 19);
+    border: 1px solid rgb(22, 19, 19);
+    margin-bottom: 2%;
+}
+
+.button-leak{
+    border: 2.3px solid white;
+    background-color: transparent;
+}
+
+/*Elementos .ad imagem*/
+.ad img{
+    width: 68%;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+}
+
+
+/*Conteúdo mestre*/
+
+.content-master{
+    background-color: #f5f3f3;
+    padding: 0 4.3%;
+    text-align: center;
+}
+
+.content-master h2{
+    padding-top: 7.75%;
+    padding-bottom: 2.5%;
+    font-size: 1.6em;
+    width: 90vw;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.content-master > p{
+    width: 90vw;
+    margin: auto;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    padding-bottom: 9%;
+}
+
+/*Conteúdo mestre álbum*/
+.card-album{
+    border: 1px solid black;
+    margin-bottom: 8.6%;
+    display: flex;
+}
+
+.card-album img{
+    border: 1px solid black;
+    display: block;
+    width: 31%;
+}
+
+.description{
+    border: 1px solid black;
+    display: block;
+    height: 100%;
+    width: 70%;
+    
+}
+
+.description p{
+    border: 1px solid black;
+    margin: 2%;
+}
+
+
+/* .nav-menu{
+    border: 1px solid white;
+    width: 100%;
+    margin-right: 15%;
+}
+
+.nav-menu ul{
+    display: flex;
+    padding: 6%;
+}
+
+.nav-menu ul li{
+    list-style-type: none;
+    margin: 1em;
+    font-weight: bolder;
+    font-size: 90%;
+    letter-spacing: .03em;
+    margin: auto;
+} */
+
