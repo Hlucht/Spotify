@@ -3,8 +3,8 @@
     padding: 0;
     font-family:'Rubik', sans-serif;
 }
-/*Mobile*/
 
+/*Mobile*/
 /*Classes gerais*/
 
 .content{
@@ -105,7 +105,6 @@
 }
 
 /*Elementos .add buttons*/ 
-
 .buttons{
     margin-top: 12.5%;
 }
@@ -143,8 +142,8 @@
 }
 
 
-/*Conteúdo mestre*/
 
+/*Conteúdo mestre*/
 .content-master{
     background-color: #f6f6f6;
 }
@@ -159,8 +158,8 @@
 }
 
 
-/*Conteúdo cards com "icone"*/
 
+/*Conteúdo cards icons*/
 .content-icons{
     padding-bottom: 9.5%;
 }
@@ -184,8 +183,7 @@
 
 
 
-/*Conteúdo dos planos Premium*/
-
+/*Conteúdo plan Premium*/
 .content-plan{
     background-color: rgb(235, 235, 235);
 }
@@ -194,7 +192,7 @@
     font-size: 180%;
 }
 
-/*Div dos Cartões de crédito*/
+/*Div .plan credit-cards*/
 .credit-cards{
     width: 70%;
     display: flex;
@@ -218,20 +216,20 @@
     background-color: rgb(120, 41, 41);
 }
 
-/*Card do plano*/
+/*Card .plan*/
+.card-plan{
+    background-color: white;
+    margin-top: 3%;
+    border-radius: 3%;
+    padding: 0 3.7%;
+    box-shadow: 0 0 5px .5px rgb(184, 181, 181);
+}
 
 .card-plan-1{
     margin-top: 10.4%;
 }
 
-.card-plan{
-    background-color: white;
-    margin-top: 3%;
-    border-radius: 3%;
-    padding: 0 3.5%;
-    box-shadow: 0 0 5px .5px rgb(184, 181, 181);
-}
-
+/*Texto .plan preenchimento*/
 .div-condition{
     display: flex; 
 }
@@ -252,6 +250,7 @@
     color:rgb(13, 114, 234);
 }
 
+/*Texto*/
 .card-plan h3{
     text-align: left;
     font-size: 141%;
@@ -274,16 +273,10 @@ hr{
 #check{
     display: flex;
     align-items: center;
-    margin-top: -1rem;
+    margin-top: -1em;
     text-align: left;
-}
-
-.button-fill{
-    margin-top: 3%;
-}
-
-.fa-check{
-    color: rgb(83, 83, 83);
+    margin-bottom: .8em;
+    font-size: 97%;
 }
 
 .plan{
@@ -293,6 +286,20 @@ hr{
     margin-top: 5%;
     padding-bottom: 5%;
 }
+
+/*Icone .plan*/
+.fa-check{
+    color: rgb(83, 83, 83);
+}
+ /*Botão .plan*/
+.button-fill{
+    margin-top: 3%;
+    padding: 3.5%;
+}
+
+
+
+
 
 
 
