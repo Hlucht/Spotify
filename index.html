@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_media800.css">
 
     <title>Spotify Premium - Spotify (BR)</title>
     
@@ -22,7 +23,7 @@
         <a href="#"><img src="imagens/logotipo.png" alt="Spotify logo" class="image-logotipo"></a>
 
         <a href="#"><i class="fa-sharp fa-solid fa-bars"></i></a>
-        <!-- <nav class="nav-menu">
+        <nav class="nav-menu">
             <ul>
                 <li>Premiun</li>
                 <li>Suporte</li>
@@ -31,7 +32,7 @@
                 <li>Increver-se</li>
                 <li>Entrar</li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
     
     <section class="content-ad">
@@ -42,7 +43,7 @@
         
             <div class="buttons">
                 <button class="button button-fill"><a href="#"></a>Experimente 3 meses por R$ 0,00</button>
-                <button class="button button-leak"><a href="#"></a>Ver planos</button>
+                <button class="button button-leak button-ad-leak"><a href="#"></a>Ver planos</button>
             </div>
             
 
@@ -54,92 +55,97 @@
 
     <main>
         <section class="content content-master">
-            <h2>As mais tocadas de 2022 no Brasil.</h2>
+            <div class="text-content-master">
+                <h2>As mais tocadas de 2022 no Brasil.</h2>
      
-            <p>Escute às faixas principais sem anúncios e no modo offline com Premium.</p>
-     
-            <article class="card card-album">
-                <img src="https://i.scdn.co/image/ab6761610000f178178a83212c7e82d1389cb76a" alt="Álbum Márilia Mendonça">
-
-                <div class="description">
-                    <p class="description-title">O <strong>artista</strong> mais tocado</p>
-
-                    <p class="description-sub">Marília Mendonça</p>
-                </div>
-            </article>
-
-            <article class="card card-album">
-                <img src="https://i.scdn.co/image/ab67616d0000b273054b558d57a72b90f3fb6daf" alt="Álbum Hugo & Guilherme">
-
-                <div class="description">
-                    <p class="description-title">A <strong>música</strong> mais tocada</p>
-
-                    <p class="description-sub">Mal Feito - Ao Vivo</p>
-                    <p class="description-sub">Hugo & Guilherme</p>
-                </div>
-            </article>
-
-            <article class="card card-album">
-                <img src="https://i.scdn.co/image/ab67616d0000b2735bd566fd60f52885310f7fab" alt="Álbum Henrique & Juliano">
-
-                <div class="description">
-                    <p class="description-title">O <strong>álbum</strong> mais tocado</p>
-                    <p class="description-sub">Manifesto Musical</p>
-                    <p class="description-sub">Henrique & Juliano</p>
-                </div>
-            </article>
-
-            <article class="card card-album">
-                <img src="https://i.scdn.co/image/ab6765630000ba8ada018f5c18ecebc5d3ff3b59" alt="">
-
-                <div class="description">
-                    <p class="description-title">O <strong>podcast</strong> mais tocado</p>
-
-                    <p class="description-sub">Podpah</p>
-                </div>
-            </article>
+                <p>Escute às faixas principais sem anúncios e no modo offline com Premium.</p>
+         
+                <article class="card card-album">
+                    <img src="https://i.scdn.co/image/ab6761610000f178178a83212c7e82d1389cb76a" alt="Álbum Márilia Mendonça">
+    
+                    <div class="description">
+                        <p class="description-title">O <strong>artista</strong> mais tocado</p>
+    
+                        <p class="description-sub">Marília Mendonça</p>
+                    </div>
+                </article>
+    
+                <article class="card card-album">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273054b558d57a72b90f3fb6daf" alt="Álbum Hugo & Guilherme">
+    
+                    <div class="description">
+                        <p class="description-title">A <strong>música</strong> mais tocada</p>
+    
+                        <p class="description-sub">Mal Feito - Ao Vivo</p>
+                        <p class="description-sub">Hugo & Guilherme</p>
+                    </div>
+                </article>
+    
+                <article class="card card-album">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2735bd566fd60f52885310f7fab" alt="Álbum Henrique & Juliano">
+    
+                    <div class="description">
+                        <p class="description-title">O <strong>álbum</strong> mais tocado</p>
+                        <p class="description-sub">Manifesto Musical</p>
+                        <p class="description-sub">Henrique & Juliano</p>
+                    </div>
+                </article>
+    
+                <article class="card card-album">
+                    <img src="https://i.scdn.co/image/ab6765630000ba8ada018f5c18ecebc5d3ff3b59" alt="">
+    
+                    <div class="description">
+                        <p class="description-title">O <strong>podcast</strong> mais tocado</p>
+    
+                        <p class="description-sub">Podpah</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
 
         <section class="content content-icons">
-            <h2>Por que ser Premium?</h2>
+            <div class="text-content-icons">
+                <h2>Por que ser Premium?</h2>
 
-            <article class="card card-icon">
-                <img src="imagens/figuraModoOffline.png" alt="Figura modo offline">
+                <article class="card card-icon">
+                    <img src="imagens/figuraModoOffline.png" alt="Figura modo offline">
 
-                <div class="description">
-                    <p class="description-title icons">Modo offline.</p>
-                    <p class="description-sub">Ouça músicas onde estiver.</p>
-                </div>
-            </article>
+                    <div class="description">
+                        <p class="description-title icons">Modo offline.</p>
+                        <p class="description-sub">Ouça músicas onde estiver.</p>
+                    </div>
+                </article>
 
-            <article class="card card-icon">
-                <img src="imagens/figuraSemAnuncio.png" alt="Figura ouça sem anúncios">
+                <article class="card card-icon">
+                    <img src="imagens/figuraSemAnuncio.png" alt="Figura ouça sem anúncios">
 
-                <div class="description">
-                    <p class="description-title icons">Ouça músicas sem anúncios.</p>
-                    <p class="description-sub">Curta músicas sem anúncios.</p>
-                </div>
-            </article>
+                    <div class="description">
+                        <p class="description-title icons">Ouça músicas sem anúncios.</p>
+                        <p class="description-sub">Curta músicas sem anúncios.</p>
+                    </div>
+                </article>
 
-            <article class="card card-icon">
-                <img src="imagens/figuraQualquerOrdem.png" alt="Figura ouça na ordem que quiser">
+                <article class="card card-icon">
+                    <img src="imagens/figuraQualquerOrdem.png" alt="Figura ouça na ordem que quiser">
 
-                <div class="description">
-                    <p class="description-title icons">Ouça na ordem que quiser.</p>
-                    <p class="description-sub">Qualquer música em qualquer ordem.</p>
-                </div>
-            </article>
-            
-            <article class="card card-icon">
-                <img src="imagens/figuraQualidadeSom.png" alt="Figura qualidade de som superior">
+                    <div class="description">
+                        <p class="description-title icons">Ouça na ordem que quiser.</p>
+                        <p class="description-sub">Qualquer música em qualquer ordem.</p>
+                    </div>
+                </article>
+                
+                <article class="card card-icon">
+                    <img src="imagens/figuraQualidadeSom.png" alt="Figura qualidade de som superior">
 
-                <div class="description">
-                    <p class="description-title icons">Qualidade de som superior.</p>
-                    <p class="description-sub">Sinta o som.</p>
-                </div>
-            </article>
+                    <div class="description">
+                        <p class="description-title icons">Qualidade de som superior.</p>
+                        <p class="description-sub">Sinta o som.</p>
+                    </div>
+                </article>
+            </div>
         </section>
+
 
         <section class="content content-plan">
             <h2 id="h2-plan">Escolha seu plano Premium</h2>
@@ -318,51 +324,53 @@
         </section>
 
         <footer class="footer">
-            <img src="imagens/logotipo.png" alt="Spotify logo" class="image-logotipo image-logotipo-footer">
+            <div class="text-footer">
+                <img src="imagens/logotipo.png" alt="Spotify logo" class="image-logotipo image-logotipo-footer">
 
-            <div class="card-footer">
-                <h3 class="footer-title">Empresa</h3>
-                <a href="#">Sobre</a>
-                <a href="#">Empregos</a>
-                <a href="#">For the Record</a>
-            </div>
-
-            <div class="card-footer">
-                <h3 class="footer-title">Comunidades</h3>
-                <a href="#">Para Artistas</a>
-                <a href="#">Desenvolvedores</a>
-                <a href="#">Publicidade</a>
-                <a href="#">Investidores</a>
-                <a href="#">Fornecedores</a>
-            </div>
-
-            <div class="card-footer">
-                <h3 class="footer-title">Links úteis</h3>
-                <a href="#">Suporte</a>
-                <a href="#">Player da web</a>
-                <a href="#">Aplicativo móvel grátis</a>
-            </div>
-
-            <div class="social-midias">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-            </div>
-
-            <div class="privacy">
-                <p class="privacy-site">
-                    <a href="#">Legal</a>
-                    <a href="#">Centro de Privacidade</a>
-                    <a href="#">Política de privacidade</a>
-                
-                    <a href="#">Cookies</a>
-                    <a href="#">Sobre anúncios</a>
-                </p>
+                <div class="card-footer">
+                    <h3 class="footer-title">Empresa</h3>
+                    <a href="#">Sobre</a>
+                    <a href="#">Empregos</a>
+                    <a href="#">For the Record</a>
+                </div>
     
-                <p class="official-footer">
-                    <a href="#"><i class="fa-solid fa-earth-americas"></i>Brasil</a>
-                    <a href="#">© 2022 Spotify AB</a>
-                </p>
+                <div class="card-footer">
+                    <h3 class="footer-title">Comunidades</h3>
+                    <a href="#">Para Artistas</a>
+                    <a href="#">Desenvolvedores</a>
+                    <a href="#">Publicidade</a>
+                    <a href="#">Investidores</a>
+                    <a href="#">Fornecedores</a>
+                </div>
+    
+                <div class="card-footer">
+                    <h3 class="footer-title">Links úteis</h3>
+                    <a href="#">Suporte</a>
+                    <a href="#">Player da web</a>
+                    <a href="#">Aplicativo móvel grátis</a>
+                </div>
+    
+                <div class="social-midias">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+    
+                <div class="privacy">
+                    <p class="privacy-site">
+                        <a href="#">Legal</a>
+                        <a href="#">Centro de Privacidade</a>
+                        <a href="#">Política de privacidade</a>
+                    
+                        <a href="#">Cookies</a>
+                        <a href="#">Sobre anúncios</a>
+                    </p>
+        
+                    <p class="official-footer">
+                        <a href="#"><i class="fa-solid fa-earth-americas"></i>Brasil</a>
+                        <a href="#">© 2022 Spotify AB</a>
+                    </p>
+                </div>
             </div>
         </footer>
     </main>

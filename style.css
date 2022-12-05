@@ -4,7 +4,7 @@
     font-family:'Rubik', sans-serif;
 }
 
-/*Mobile*/
+/*Mobile Media-500*/
 /*Classes gerais*/
 .content{
     padding: 0 10px 23px;
@@ -24,7 +24,6 @@
 }
 
 .description{
-    height: 80px;
     flex-direction: row;
     margin: 30px 0 0 20px;
     text-align: left;
@@ -46,6 +45,24 @@
     line-height: 17px;
 }
 
+.button{
+    display: block;
+    width: 100%;
+    border-radius: 32px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    font-weight: 450;
+    letter-spacing: .3px;
+    margin-bottom: 9px;
+}
+
+.button-fill{
+    padding: 16px;
+    background-color: rgb(22, 19, 19);
+    border: 1px solid rgb(22, 19, 19);
+}
+
 
 
 /*Cabeçalho*/
@@ -53,6 +70,7 @@
     background-color: black;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
 .image-logotipo{
@@ -61,9 +79,31 @@
 }
 
 .fa-bars{
-    margin: 14px 0 8px 340px;
+    margin: 14px 20px 8px ;
     font-size: 23.84px;
     color: white;
+}
+
+/*Cabeçalho nav*/
+.nav-menu{
+    border: 1px solid white;
+    width: 100%;
+    margin-right: 15%;
+    display: none;
+}
+
+.nav-menu ul{
+    display: flex;
+    padding: 6%;
+}
+
+.nav-menu ul li{
+    list-style-type: none;
+    margin: 1em;
+    font-weight: bolder;
+    font-size: 90%;
+    letter-spacing: .03em;
+    margin: auto;
 }
 
 
@@ -77,7 +117,7 @@
 .ad{
     padding: 20.9px 19px;
     text-align: justify;
-    box-sizing: border-box;
+    margin: auto;
 }
 
 /*Elementos .ad título/parágrafo*/
@@ -89,33 +129,20 @@
 
 .ad h2{
     text-align: left;
-    margin-top: 8%;
+    margin-top: 35px;
     line-height: 24.8px;
     font-size: 16.784px;
     font-weight: 400;
     letter-spacing: .3px;
 }
 
+.termos-ad{
+    font-size: 66%;
+}
+
 /*Elementos .add buttons*/ 
 .buttons{
-    margin-top: 12.5%;
-}
-
-.button{
-    display: block;
-    width: 100%;
-    border-radius: 32px;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: white;
-    font-weight: 450;
-    letter-spacing: .3px;
-}
-
-.button-fill{
-    background-color: rgb(22, 19, 19);
-    border: 1px solid rgb(22, 19, 19);
-    margin-bottom: 10px;
+    margin-top: 55px;
 }
 
 .button-leak{
@@ -129,7 +156,7 @@
     width: 300px;
     display: block;
     margin: auto;
-    margin-top: 8%;
+    margin-top: 28px;
     padding-bottom: 35px;
 }
 
@@ -140,13 +167,13 @@
     background-color: #f6f6f6;
 }
 
-.content-master > p{
+.text-content-master > p{
     width: 90vw;
     margin: auto;
     font-weight: 400;
     font-size: 17.6px;
     line-height: 20.8px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .card-album img{
@@ -190,28 +217,28 @@
 }
 
 #h2-plan{
-    font-size: 180%;
+    font-size: 170%;
     padding-top: 35px;
 }
 
 /*Div .plan credit-cards*/
 .credit-cards{
-    width: 380px;
+    width: 280px;
     display: flex;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 20px;
+   
 } 
 
 .credit-cards a{
     color: black;
     font-size: 98%;
-    margin: auto;
 }
 
 .credit-cards img{
-    width: 32px;
+    width: 30px;
     border-radius: 4px;
-    margin: auto;
+    margin-right: 8px;
 }
 
 .hipercard{
@@ -230,7 +257,7 @@
 }
 
 .card-plan-1{
-    margin-top: 10.4%;
+    margin-top: 50px;
 }
 
 /*Texto .plan preenchimento*/
@@ -286,6 +313,10 @@ hr{
     margin-left: 15px;
 }
 
+.card-plan > div:last-of-type{
+    padding-bottom: 20px;
+}
+
 .plan{
     color: rgb(83, 83, 83);
     text-align: left;
@@ -298,17 +329,17 @@ hr{
 .fa-check{
     color: rgb(83, 83, 83);
 }
- /*Botão .plan*/
-.button-fill{
-    margin-top: 23px;
-    padding: 15px;
-}
 
 
 
 /*Rodapé*/
 .footer{
-    background-color: black;
+    background-color: black; 
+}
+
+.text-footer{
+    max-width: 900px;
+    margin: auto;
 }
 
 .image-logotipo-footer{
@@ -340,7 +371,7 @@ hr{
 
 /*Icones .footer*/
 .social-midias{
-    margin-top: 140px;
+    margin-top: 135px;
 }
 
 .fa-brands{
@@ -350,7 +381,7 @@ hr{
     padding: 10px;
     border-radius: 50%;
     margin-left: 13px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .fa-instagram{
@@ -365,58 +396,38 @@ hr{
 /*Links de suporte .footer*/
 .privacy-site{
     display: inline-block;
-    width: 70%;
+    width: 65%;
 }
 
 .privacy p{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 
 p a{
     color: rgb(173, 170, 170);
-    font-size: 58%;
-    padding-left: 5%;
-    margin-bottom: 5px;
+    font-size: 60%;
+    padding-left: 18px;
+    margin-bottom: 8px;
     text-decoration: none;
     display: inline-block;
 }
 
-.privacy-footer{
+.privacy{
     display: flex;
+    justify-content: space-between;
 }
 
 .official-footer{
-    display: inline-block;
-    justify-content: right;
+    max-width: 155px;
+    position: relative;
+    bottom: 28px;
+    right: 15px;
     text-align: right;
 }
 
 .fa-earth-americas{
     color: rgb(173, 170, 170);
     font-size: 100%;
+    margin-right: 4px;
 }
-
-
-
-
-/* .nav-menu{
-    border: 1px solid white;
-    width: 100%;
-    margin-right: 15%;
-}
-
-.nav-menu ul{
-    display: flex;
-    padding: 6%;
-}
-
-.nav-menu ul li{
-    list-style-type: none;
-    margin: 1em;
-    font-weight: bolder;
-    font-size: 90%;
-    letter-spacing: .03em;
-    margin: auto;
-} */
-
