@@ -50,7 +50,7 @@
     /*Conteúdo mestre*/
     /*Estrutura grid*/
     .text-content-master{
-        max-width: 1200px;
+        max-width: 1000px;
         margin: auto;
         display: grid;
         grid-template-areas: 
@@ -108,13 +108,13 @@
     }
     
     .description-sub{
-        font-size: 80%;
-        line-height: 5px;
+        font-size: 90%;
+        line-height: 18px;
     }
 
     /*Imagem .card albuns*/
     .card-album img{
-        width: 100px;
+        width: 110px;
     }
 
 
@@ -155,8 +155,53 @@
 
     /*Cards icons*/
     .card-icon{
-        border: 1px solid black;
+        margin: auto;
         margin-bottom: 50px;
+    }
+
+    .description-icons{
+        width: 250px;
+    }
+
+    .card-icon img{
+        width: 100px;
+    }
+
+
+    /*Rodapé*/
+    .text-footer{
+        max-width: 800px
+    }
+
+    .cards-footer{
+        margin-left: 20px;
+        margin-bottom: 0;
+        display: grid;
+        grid-template-areas: 
+        "logo logo logo"
+        "card1 card2 card3"; 
+    }
+
+    .image-logotipo-footer{
+        width: 90px;
+        margin: 45px 0 40px 29px;
+        grid-area: logo;
+    }
+
+    .cards-footer > div:nth-child(1){
+        grid-area: card1;
+    }
+
+    .cards-footer > div:nth-child(2){
+        grid-area: card2;
+    }
+
+    .cards-footer > div:nth-child(3){
+        grid-area: card3;
+    }
+
+    .social-midias{
+        margin-top: 50px;
     }
 }
 
