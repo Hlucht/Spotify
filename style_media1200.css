@@ -1,0 +1,67 @@
+@media screen and (min-width: 1000px){
+    /*Cabeçalho*/
+    .text-header{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    /*Conteúdo anúncio*/
+    .ad{
+        max-width: 1150px;
+        text-align: left;
+        display: grid;
+        grid-template-areas: 
+        "title foto"
+        "subtitle foto"
+        "botoes foto"
+        "termos foto";
+    }
+
+    .ad:nth-child(1){
+        grid-area: title;
+    }
+
+    .ad:nth-child(2){
+        grid-area: subtitle;
+    }
+
+    .ad:nth-child(3){
+        grid-area: botoes;
+    }
+
+    .ad:nth-child(4){
+        grid-area: termos;
+    }
+
+    .ad img{
+        width: 380px;
+        grid-area: foto;
+        padding: 0;
+        margin-top: 3px;
+    }
+
+    .ad h1{
+        width: 700px;
+        height: 1px;
+        padding-top: 30px;
+    }
+
+    .ad h2{
+        width: 650px;
+        height: 5px;
+    }
+
+    .button{
+        margin: 2px;
+        padding: 0;
+        height: 50px;
+        padding: 1px;
+        margin-top: 40px;
+    }
+
+    .termos-ad{
+        width: 650px;
+        margin: 0;
+        padding: 0;
+    }
+}

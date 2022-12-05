@@ -1,0 +1,124 @@
+@media screen and (min-width: 1000px){
+    /*Cabeçalho*/
+    /*Retirada de bars*/
+    .fa-bars{
+        display: none;
+    }
+
+    /*Menu de navegação*/
+    .text-header{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .nav-menu{
+        width: 500px;
+        display: inline-block; 
+    }
+
+    .nav-menu ul{
+        display: flex; 
+        justify-content: space-between;
+        margin-right: 30px;
+    }
+
+    .nav-menu ul li:nth-child(5), .nav-menu ul li:nth-child(6){
+        color: rgb(194, 189, 189);
+    }
+
+    .nav-menu ul li{
+        list-style-type: none;
+        font-weight: 600;
+        font-size: 95%;
+        letter-spacing: .03em;
+        padding: 30px 6px;
+    }
+
+    .image-logotipo{
+        width: 133px;
+        padding: 9px 0 4px 1px ;
+    }
+
+
+
+    /*Conteúdo de anúncio*/
+    .ad{
+        max-width: 900px;
+        text-align: left;
+    }
+
+    .termos-ad{
+        width: 70%;
+    }
+
+    /*Rodapé*/
+    .text-footer{
+        max-width: 1000px;
+        display: grid;
+        grid-template-areas: 
+        "logo card1 card2 card3 medias"
+        "termos termos termos termos termos";
+    }
+
+    .image-logotipo-footer{
+        grid-area: logo;
+    }
+
+    .cards-footer > div:nth-child(1){
+        grid-area: card1;
+    }
+
+    .cards-footer > div:nth-child(2){
+        grid-area: card2;
+    }
+
+    .cards-footer > div:nth-child(3){
+        grid-area: card3;
+    }
+
+    .social-midias{
+        margin-top: 85px;
+        grid-area: medias;
+    }
+
+    .official-footer, .privacy{
+        grid-area: termos;
+    }
+
+    /*Links cards*/
+    .cards-footer{
+        margin-top: 80px;
+    }
+
+    .fa-brands{
+        padding: 15px;
+    }
+
+    .fa-facebook-f{
+        padding: 15px 20px;
+    }
+} 
+
+
+
+
+/* .nav-menu{
+    border: 1px solid white;
+    width: 100%;
+    margin-right: 15%;
+    display: none;
+}
+
+.nav-menu ul{
+    display: flex;
+    padding: 6%;
+}
+
+.nav-menu ul li{
+    list-style-type: none;
+    margin: 1em;
+    font-weight: bolder;
+    font-size: 90%;
+    letter-spacing: .03em;
+    margin: auto;
+} */
