@@ -1,0 +1,162 @@
+@media screen and (min-width: 800px){
+    /*Cabeçalho*/
+    .image-logotipo{
+        margin: 12px 0 10px 40px;
+    }
+
+    .fa-bars{
+        margin: 14px 40px 8px ;
+        font-size: 23.84px;
+        color: white;
+    }
+
+
+
+    /*Elementos .ad título/parágrafo*/
+    .ad{
+        width: 90%;
+    }
+
+    .ad h1{
+        margin-top: 8px;
+        font-size: 39px;
+    }
+
+    .ad h2{
+        margin-top: 30px;
+        line-height: 38px;
+        font-size: 22px;
+    }
+
+    .termos-ad{
+        margin-top: 30px;
+        font-size: 66%;
+    }
+
+    /*Elementos .add buttons*/ 
+    .buttons{
+        display: flex;
+        margin-top: 28px;
+        width: 470px;
+    }
+
+    .button-ad-leak{
+        width: 200px;
+        margin-left: 5px;
+    }
+
+
+
+    /*Conteúdo mestre*/
+    /*Estrutura grid*/
+    .text-content-master{
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        "title title"
+        "subtitle subtitle"
+        "card1 card2"
+        "card3 card4";
+    }
+
+    /*Definição das áreas*/
+    .content-master h2{
+        margin: auto;
+        margin-top: 20px;
+        font-size: 36px ;
+        grid-area: title;
+    }
+
+    .content-master p{
+        grid-area: subtitle;
+        margin-bottom: 15px;
+    }
+
+    .text-content-master > article:nth-child(3){
+        grid-area: card1;
+    } 
+
+    .text-content-master > article:nth-child(4){
+        grid-area: card2;
+    }
+
+    .text-content-master > article:nth-child(5){
+        grid-area: card3;
+    }
+
+    .text-content-master > article:nth-child(6){
+        grid-area: card4;
+    }
+
+    /*Cards album*/
+    .card-album{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    /*Textos .card albuns*/
+    .description{
+        margin: 0;
+        padding: 15px 0 0 10px;
+        text-align: left;
+    }
+
+    .description-title{
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+    
+    .description-sub{
+        font-size: 80%;
+        line-height: 5px;
+    }
+
+    /*Imagem .card albuns*/
+    .card-album img{
+        width: 100px;
+    }
+
+
+
+    /*Conteúdo cards icons*/
+    .text-content-icons{
+        max-width: 1000px;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        "title title"
+        "card1 card2"
+        "card3 card4";
+    }
+
+    /*Definição das áreas*/
+    .text-content-icons h2{
+        font-size: 36px;
+        margin: 50px 0 50px 0;
+        grid-area: title;
+    }
+
+    .text-content-icons > article:nth-child(2){
+        grid-area: card1;
+    }
+
+    .text-content-icons > article:nth-child(3){
+        grid-area: card2;
+    }
+
+    .text-content-icons > article:nth-child(4){
+        grid-area: card3;
+    }
+
+    .text-content-icons > article:nth-child(5){
+        grid-area: card4;
+    }
+
+    /*Cards icons*/
+    .card-icon{
+        border: 1px solid black;
+        margin-bottom: 50px;
+    }
+}
+
