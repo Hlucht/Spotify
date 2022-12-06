@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1200px){
     /*Cabeçalho*/
     .text-header{
         max-width: 1200px;
@@ -47,7 +47,7 @@
     }
 
     .ad h2{
-        width: 650px;
+        width: 670px;
         height: 5px;
     }
 
@@ -63,5 +63,193 @@
         width: 650px;
         margin: 0;
         padding: 0;
+    }
+
+
+    /*Conteúdo albuns*/
+    .text-content-master{
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .cards-album{
+        margin: 0;
+        display: flex;
+    }
+
+    .card-album{
+        display: inline-block;
+        margin: 30px 30px 30px 20px;
+    }
+
+    .card-album img{
+        width: 170px;
+    }
+
+    .description{
+        width: 220px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .description-title{
+        margin-top: 10px;
+        font-size: 110%;
+        letter-spacing: 1px;
+    }
+    
+    .description-sub{
+        font-size: 90%;
+        line-height: 8px;
+    }
+
+    .content-master h2{
+        max-width: 1100px;
+        font-size: 36px ;
+        padding-top: 60px;
+    }
+
+    .content-master p{
+        max-width: 1100px;
+    }
+
+
+
+    /*Conteúdo icons*/
+    .content-icons h2{
+        font-size: 38px;
+        margin: 80px 0 70px 0;
+    }
+    
+    .text-content-icons{
+        max-width: 1100px;
+        display: flex;
+        margin: auto;
+    }
+
+    .card-icon{
+        display: block;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .description-icons{
+        width: 250px;
+        text-align: center;
+    }
+
+    .description-sub{
+        margin: auto;
+        line-height: 20px;
+        font-size: 90%;
+        width: 200px;
+    }
+
+    .text-content-icons > article:nth-child(3){
+       position: relative;
+       top: 20px;
+    }
+
+    .icons{
+        font-size: 111%;
+    }
+
+    .card-icon img{
+        width: 150px;
+    }
+
+
+
+    /*Conteúdo .plan*/
+    #h2-plan{
+        font-size: 230%;
+        font-weight: 600;
+        padding-top: 70px;
+    }
+
+    .cards-plan{
+        width: 1130px;
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .card-plan{
+        margin: auto;
+        margin-left: 15px;
+        height: 760px;
+        margin-bottom: 60px;
+    }
+
+    /*Condição .plan*/
+    .div-condition{
+        display: block;
+       
+    }
+
+    .condition{
+        width: 160px;
+        padding: 4px;
+        font-size: 85%;
+        font-weight: 600;
+        border-radius: 3.3px;
+        border: 1.5px solid rgb(13, 114, 234);
+        background-color: rgb(13, 114, 234);
+        color:white;
+       
+    }
+    
+    .leak{
+        width: 200px;
+        background-color: white;
+        color:rgb(13, 114, 234);
+        margin: 0;
+    }
+
+    /*Texto .plan card*/
+    .card-plan h3{
+        margin-top: 10px;
+    }
+
+    .value{
+        line-height: 23px;
+    }
+
+    .card-plan > div:last-of-type{
+        padding-bottom: 0;
+    }
+
+    .plan{
+        font-size: 65%;
+    }
+
+    /*Linha .plan*/
+    .card-plan:nth-child(4) hr{
+        margin-top: 63px;
+    }
+
+    /*Botoes .plan*/
+    .card-plan:nth-child(1) button{
+        margin-top: 145px;
+    }
+
+    .card-plan:nth-child(2) button{
+        margin-top: 175px;
+    }
+
+    .card-plan:nth-child(3) button{
+        margin-top: 20px;
+    }
+
+    .card-plan:nth-child(4) button{
+        margin-top: 120px;
+    }
+
+
+
+    /*Rodapé*/
+    .text-footer{
+        max-width: 1200px;
     }
 }
