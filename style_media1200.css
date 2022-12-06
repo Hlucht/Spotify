@@ -128,7 +128,7 @@
     /*Conteúdo icons*/
     /*Estrutura*/
     .text-content-icons{
-        max-width: 1100px;
+        max-width: 1150px;
         display: flex;
         margin: auto;
     }
@@ -152,11 +152,11 @@
     /*Texto .icon*/
     .content-icons h2{
         font-size: 38px;
-        margin: 80px 0 70px 0;
+        margin: 80px 0 40px 0;
     }
     
     .description-icons{
-        width: 250px;
+        width: 260px;
         text-align: center;
     }
 
@@ -168,14 +168,15 @@
     }
 
     .icons{
-        font-size: 111%;
+        margin-top: 35px;
+        font-size: 115%;
     }
 
 
 
     /*Conteúdo .plan*/
     #h2-plan{
-        font-size: 230%;
+        font-size: 220%;
         font-weight: 600;
         padding-top: 70px;
     }
