@@ -29,9 +29,9 @@
     .nav-menu ul li{
         list-style-type: none;
         font-weight: 600;
-        font-size: 95%;
+        font-size: 96%;
         letter-spacing: .03em;
-        padding: 30px 6px;
+        padding: 31px 11px;
     }
 
     .image-logotipo{
@@ -50,6 +50,22 @@
     .termos-ad{
         width: 70%;
     }
+
+
+
+
+    /*Conteúdo mestre*/
+    .card-album img{
+        width: 140px;
+    }
+
+    /*Conteúdo icons*/
+    .card-icon img{
+        width: 120px;
+    }
+
+
+
 
     /*Rodapé*/
     .text-footer{
@@ -98,27 +114,3 @@
         padding: 15px 20px;
     }
 } 
-
-
-
-
-/* .nav-menu{
-    border: 1px solid white;
-    width: 100%;
-    margin-right: 15%;
-    display: none;
-}
-
-.nav-menu ul{
-    display: flex;
-    padding: 6%;
-}
-
-.nav-menu ul li{
-    list-style-type: none;
-    margin: 1em;
-    font-weight: bolder;
-    font-size: 90%;
-    letter-spacing: .03em;
-    margin: auto;
-} */
