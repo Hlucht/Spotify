@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px){
     /*Cabeçalho*/
-    /*Retirada de bars*/
+    /*Retirada do bars*/
     .fa-bars{
         display: none;
     }
@@ -53,11 +53,12 @@
 
 
 
-
-    /*Conteúdo mestre*/
+    /*Conteúdo .master albuns*/
     .card-album img{
         width: 140px;
     }
+
+
 
     /*Conteúdo icons*/
     .card-icon img{
@@ -66,8 +67,8 @@
 
 
 
-
     /*Rodapé*/
+    /*Estrutura grid*/
     .text-footer{
         max-width: 1000px;
         display: grid;
@@ -76,6 +77,7 @@
         "termos termos termos termos termos";
     }
 
+   /*Definição das áreas*/
     .image-logotipo-footer{
         grid-area: logo;
     }
@@ -92,7 +94,7 @@
         grid-area: card3;
     }
 
-    .social-midias{
+    .medias{
         margin-top: 85px;
         grid-area: medias;
     }
@@ -106,6 +108,7 @@
         margin-top: 80px;
     }
 
+    /*Medias*/
     .fa-brands{
         padding: 15px;
     }
