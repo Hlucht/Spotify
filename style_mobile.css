@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik', sans-serif;
+}
+
+/*Mobile Media-500*/
+/*Classes gerais*/
+.content{
+    padding: 0 10px 23px;
+    text-align: center;
+}
+
+.content h2{
+    padding-top: 17.75px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.card{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.description{
+    flex-direction: row;
+    margin: 30px 0 0 20px;
+    text-align: left;
+}
+
+.description-title{
+    font-size: 120%;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.description-sub{
+    font-size: 96%;
+}
+
+.termos{
+    margin-top: 45px;
+    font-size: 63%;
+    line-height: 17px;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    border-radius: 32px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    font-weight: 450;
+    letter-spacing: .3px;
+    margin-bottom: 9px;
+}
+
+.button:hover{
+    transform: scale(1.05, 1.05);
+    background-color: rgba(0, 0, 0, 0.056);
+}
+
+.button-fill{
+    padding: 16px;
+    background-color: rgb(22, 19, 19);
+    border: 1px solid rgb(22, 19, 19);
+}
+
+.button-fill:hover{
+    background-color: black;
+}
+
+
+
+/*Cabeçalho*/
+.header{
+    background-color: black;
+    color: white;
+}
+
+.text-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-logotipo{
+    width: 90px;
+    margin: 12px 0 10px 20px;
+}
+
+.fa-bars{
+    margin: 14px 20px 8px ;
+    font-size: 23.84px;
+    color: white;
+}
+
+/*Cabeçalho nav*/
+.nav-menu{
+    display: none;
+}
+
+
+
+/*Conteúdo de anúncio*/
+.content-ad{
+    background-color: #df0c8b;
+    color: white;
+}
+
+.ad{
+    padding: 20.9px 19px;
+    text-align: justify;
+    margin: auto;
+}
+
+/*Elementos .ad título/parágrafo*/
+.ad h1{
+    font-size: 26.56px;
+    font-weight: 600.2;
+    letter-spacing: .3px;
+}
+
+.ad h2{
+    text-align: left;
+    margin-top: 35px;
+    line-height: 24.8px;
+    font-size: 16.784px;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+
+.termos-ad{
+    font-size: 66%;
+}
+
+/*Elementos .add buttons*/ 
+.buttons{
+    margin-top: 55px;
+}
+
+.button-leak{
+    border: 2.3px solid white;
+    background-color: transparent;
+    padding: 16px;
+}
+
+/*Elementos .ad imagem*/
+.ad img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 28px;
+    padding-bottom: 35px;
+}
+
+
+
+/*Conteúdo mestre*/
+.content-master{
+    background-color: #f6f6f6;
+}
+
+.text-content-master > p{
+    width: 90vw;
+    margin: auto;
+    font-weight: 400;
+    font-size: 17.6px;
+    line-height: 20.8px;
+    padding-bottom: 30px;
+}
+
+.card-album img{
+    width: 140px;
+}
+
+
+
+/*Conteúdo cards icons*/
+.content-icons h2{
+    font-size: 26px;
+    margin: 20px 0 10px 0;
+}
+
+.content-icons{
+    padding-bottom: 48px;
+}
+
+.content-icons img{
+    width: 107px;
+    margin-top: 5px;
+}
+
+.icons{
+    width: 110%;
+    font-size: 117%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.card-icon{
+    margin-bottom: 50px;
+}
+
+
+
+/*Conteúdo plan Premium*/
+.content-plan{
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 62px;
+}
+
+#h2-plan{
+    font-size: 170%;
+    padding-top: 35px;
+}
+
+/*Div .plan credit-cards*/
+.credit-cards{
+    width: 280px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+   
+} 
+
+.credit-cards a{
+    color: black;
+    font-size: 98%;
+}
+
+.credit-cards img{
+    width: 30px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.hipercard{
+    background-color: rgb(120, 41, 41);
+}
+
+/*Card .plan*/
+.card-plan{
+    width: 390px;
+    margin: auto;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 0 20px;
+    box-shadow: 0 0 5px .5px rgb(184, 181, 181);
+}
+
+.card-plan-1{
+    margin-top: 50px;
+}
+
+/*Texto .plan preenchimento*/
+.div-condition{
+    display: flex; 
+}
+
+.condition{
+    margin: 20px 2px 7px;
+    padding: 4px;
+    font-size: 85%;
+    font-weight: 600;
+    border-radius: 3.3px;
+    border: 1.5px solid rgb(13, 114, 234);
+    background-color: rgb(13, 114, 234);
+    color:white;
+}
+
+.leak{
+    background-color: white;
+    color:rgb(13, 114, 234);
+}
+
+/*Texto .plan card*/
+.card-plan h3{
+    text-align: left;
+    font-size: 140%;
+}
+
+.value{
+    margin-top: 2px;
+    font-size: 100%;
+    text-align: left;
+    line-height: 22px;
+}
+
+hr{
+    width: 98%;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(182, 164, 164);
+}
+
+#check{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 12.8px;
+    font-size: 97%;
+}
+
+#check p{
+    margin-left: 15px;
+}
+
+.card-plan > div:last-of-type{
+    padding-bottom: 20px;
+}
+
+.plan{
+    color: rgb(83, 83, 83);
+    text-align: left;
+    font-size: 74%;
+    margin-top: 15px;
+    padding-bottom: 18px;
+}
+
+/*Icone .plan*/
+.fa-check{
+    color: rgb(83, 83, 83);
+}
+
+
+
+/*Rodapé*/
+.footer{
+    background-color: black; 
+}
+
+.text-footer{
+    max-width: 900px;
+    margin: auto;
+}
+
+.image-logotipo-footer{
+    width: 85px;
+    margin: 45px 0 40px 20px;
+}
+
+/*Cars de texto .footer*/
+.card-footer{
+    margin: 8px 0 65px 20px;
+}
+
+.footer-title{
+    color: rgb(138, 136, 136);
+    text-transform: uppercase;
+    font-size: 75%;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.card-footer a{
+    display: block;
+    margin-bottom: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 95%;
+}
+
+/*Icones .footer*/
+.social-midias{
+    margin-top: 135px;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 23px;
+    background-color: rgba(83, 77, 77, 0.397);
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-bottom: 35px;
+}
+
+.fa-instagram{
+    font-size: 160%;
+    margin-left: 3%;
+}
+
+.fa-facebook-f{
+    padding: 10px 15px;
+}
+
+/*Links de suporte .footer*/
+.privacy-site{
+    display: inline-block;
+    width: 65%;
+}
+
+.privacy p{
+    margin-bottom: 15px;
+}
+
+
+p a{
+    color: rgb(173, 170, 170);
+    font-size: 60%;
+    padding-left: 18px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.privacy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.official-footer{
+    max-width: 155px;
+    position: relative;
+    bottom: 28px;
+    right: 15px;
+    text-align: right;
+}
+
+.fa-earth-americas{
+    color: rgb(173, 170, 170);
+    font-size: 100%;
+    margin-right: 4px;
+}
