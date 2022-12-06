@@ -15,7 +15,6 @@
         margin: auto;
         display: flex;
         justify-content: space-between;
-
     }
 
     .nav-menu{
@@ -23,7 +22,8 @@
     }
 
 
-    /*Elementos .ad título/parágrafo*/
+
+    /*Elementos .ad textos*/
     .ad{
         max-width: 700px;
         margin: auto;
@@ -59,8 +59,7 @@
 
 
 
-    /*Conteúdo mestre*/
-    
+    /*Conteúdo .master albuns*/
     /*Estrutura grid*/
     .cards-album{
         margin: auto;
@@ -79,8 +78,8 @@
     }
 
     .content-master p{
-        grid-area: subtitle;
         margin-bottom: 15px;
+        grid-area: subtitle;
     }
 
     .cards-album > article:nth-child(1){
@@ -131,7 +130,8 @@
 
 
 
-    /*Conteúdo cards icons*/
+    /*Conteúdo .icons*/
+    /*Estrutura grid*/
     .text-content-icons{
         max-width: 800px;
         margin: auto;
@@ -180,12 +180,18 @@
     }
 
 
+
     /*Rodapé*/
     .text-footer{
         max-width: 800px;
         margin: auto;
     }
 
+    .social-midias{
+        margin-top: 50px;
+    } 
+    
+    /*Estrutura grid*/
     .cards-footer{
         margin-left: 20px;
         margin-bottom: 0;
@@ -195,6 +201,7 @@
         "card1 card2 card3"; 
     }
 
+    /*Definição das áreas*/
     .image-logotipo-footer{
         width: 90px;
         margin: 45px 0 40px 29px;
@@ -211,10 +218,6 @@
 
     .cards-footer > div:nth-child(3){
         grid-area: card3;
-    }
-
-    .social-midias{
-        margin-top: 50px;
     }
 }
 
