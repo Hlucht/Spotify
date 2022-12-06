@@ -4,7 +4,7 @@
     font-family:'Rubik', sans-serif;
 }
 
-/*Mobile Media-500*/
+/*Mobile*/
 /*Classes gerais*/
 .content{
     padding: 0 10px 23px;
@@ -157,13 +157,12 @@
 
 
 
-/*Conteúdo mestre*/
+/*Conteúdo .master albuns*/
 .content-master{
     background-color: #f6f6f6;
 }
 
 .text-content-master > p{
-    width: 90vw;
     margin: auto;
     font-weight: 400;
     font-size: 17.6px;
@@ -177,7 +176,7 @@
 
 
 
-/*Conteúdo cards icons*/
+/*Conteúdo .icons*/
 .content-icons h2{
     font-size: 26px;
     margin: 20px 0 10px 0;
@@ -222,7 +221,6 @@
     display: flex;
     margin: auto;
     margin-top: 20px;
-   
 } 
 
 .credit-cards a{
@@ -382,7 +380,7 @@ hr{
 
 .fa-instagram{
     font-size: 160%;
-    margin-left: 3%;
+    margin-left: 20px;
 }
 
 .fa-facebook-f{
@@ -392,13 +390,11 @@ hr{
 /*Links de suporte .footer*/
 .privacy-site{
     display: inline-block;
-    width: 65%;
 }
 
 .privacy p{
     margin-bottom: 15px;
 }
-
 
 p a{
     color: rgb(173, 170, 170);
