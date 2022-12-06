@@ -34,6 +34,10 @@
         padding: 31px 11px;
     }
 
+    .nav-menu ul li:hover{
+        color: rgb(101, 215, 101);
+    }
+
     .image-logotipo{
         width: 133px;
         padding: 9px 0 4px 1px ;

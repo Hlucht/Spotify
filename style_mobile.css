@@ -159,15 +159,26 @@
 
 /*Conteúdo .master albuns*/
 .content-master{
-    background-color: #f6f6f6;
+    color: #202f72;;
+    background-color: #f46ebe;
 }
 
-.text-content-master > p{
+.faixas{
     margin: auto;
     font-weight: 400;
     font-size: 17.6px;
     line-height: 20.8px;
     padding-bottom: 30px;
+}
+
+.ret{
+    margin: auto;
+    padding-top: 60px ;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 90%;
+    letter-spacing: 1px;
 }
 
 .card-album img{
@@ -206,7 +217,7 @@
 
 /*Conteúdo plan Premium*/
 .content-plan{
-    background-color: rgb(235, 235, 235);
+    background-color: #f6f6f6;;
     padding-bottom: 62px;
 }
 
