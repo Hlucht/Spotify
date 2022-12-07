@@ -61,6 +61,7 @@
 .button:hover{
     transform: scale(1.05, 1.05);
     background-color: rgba(0, 0, 0, 0.056);
+    cursor: pointer;
 }
 
 .button-fill{
@@ -71,6 +72,7 @@
 
 .button-fill:hover{
     background-color: black;
+    cursor: pointer;
 }
 
 
