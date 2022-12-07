@@ -158,8 +158,9 @@
 
 
 /*Conteúdo .master albuns*/
-.content-master h2{
+.text-content-master h2{
     margin-top: 20px;
+    font-size: 160%;
 }
 
 .text-content-master > p{
