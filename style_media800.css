@@ -85,10 +85,6 @@
         grid-area: subtitle;
     }
 
-    .faixas{
-        margin-bottom: 15px;
-    }
-
     .cards-album > article:nth-child(1){
         margin-bottom: 60px;
         grid-area: card1;
