@@ -92,6 +92,7 @@
     /*Imagem .master*/
     .card-album img{
         width: 170px;
+        margin-bottom: 10px;
     }
 
     /*Texto .master*/
