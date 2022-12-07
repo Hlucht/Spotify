@@ -245,11 +245,11 @@
 
     /*Botoes .plan*/
     .card-plan:nth-child(1) button{
-        margin-top: 145px;
+        margin-top: 148px;
     }
 
     .card-plan:nth-child(2) button{
-        margin-top: 175px;
+        margin-top: 180px;
     }
 
     .card-plan:nth-child(3) button{
@@ -257,7 +257,7 @@
     }
 
     .card-plan:nth-child(4) button{
-        margin-top: 120px;
+        margin-top: 125px;
     }
 
 
