@@ -158,12 +158,17 @@
 
 
 /*Conteúdo .master albuns*/
-.content-master p{
+.content-master h2{
+    margin-top: 20px;
+}
+
+.text-content-master > p{
     margin: auto;
     font-weight: 400;
-    font-size: 17.6px;
+    font-size: 18px;
     line-height: 20.8px;
     padding-bottom: 30px;
+    margin-top: 10px;
 }
 
 .card-album img{
