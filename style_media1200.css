@@ -152,7 +152,7 @@
     /*Texto .icon*/
     .content-icons h2{
         font-size: 38px;
-        margin: 80px 0 40px 0;
+        margin: 60px 0 40px 0;
     }
     
     .description-icons{
@@ -262,6 +262,6 @@
 
     /*Rodapé*/
     .text-footer{
-        max-width: 1200px;
+        max-width: 1180px;
     }
 }

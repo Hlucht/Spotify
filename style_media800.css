@@ -60,6 +60,9 @@
 
 
     /*Conteúdo .master albuns*/
+    .content-master{
+        padding-bottom: 80px;
+    }
     /*Estrutura grid*/
     .cards-album{
         margin: auto;
@@ -72,14 +75,16 @@
 
     /*Definição das áreas*/
     .content-master h2{
-        padding-top: 40px;
         font-size: 36px ;
         grid-area: title;
     }
 
     .content-master p{
-        margin-bottom: 15px;
         grid-area: subtitle;
+    }
+
+    .faixas{
+        margin-bottom: 15px;
     }
 
     .cards-album > article:nth-child(1){
