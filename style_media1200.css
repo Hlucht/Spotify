@@ -198,6 +198,10 @@
     }
 
     /*Condição .plan*/
+    .card-plan{
+        padding-bottom: 15px;
+    }
+    
     .div-condition{
         display: block;
     }
