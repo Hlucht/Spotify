@@ -158,6 +158,10 @@
 
 
 /*Conteúdo .master albuns*/
+.content-master{
+    background-color: #f6f6f6;
+}
+
 .text-content-master h2{
     margin-top: 20px;
     font-size: 160%;
