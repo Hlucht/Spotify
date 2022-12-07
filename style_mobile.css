@@ -391,6 +391,7 @@ hr{
 /*Links de suporte .footer*/
 .privacy-site{
     display: inline-block;
+    padding-bottom: 10px;
 }
 
 .privacy p{
@@ -416,7 +417,7 @@ p a{
     position: relative;
     bottom: 28px;
     right: 15px;
-    text-align: right;
+    text-align: right
 }
 
 .fa-earth-americas{
